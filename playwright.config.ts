@@ -18,7 +18,7 @@ export default defineConfig({
     baseURL: env.baseURL,
     trace: 'on',
     screenshot: 'on',
-    headless: false,
+    headless: true,
     video: 'on',
   },
   projects: [
